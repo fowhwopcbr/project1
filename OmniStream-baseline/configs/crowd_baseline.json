@@ -1,0 +1,12 @@
+{
+  "pretrained_path": "checkpoints/OmniStream",
+  "freeze_backbone": true,
+  "head_channels": [64, 32, 16],
+  "input_is_normalized": false,
+  "temporal_length": 16,
+  "density_loss_weight": 1.0,
+  "count_loss_weight": 0.0,
+  "learning_rate": 0.0001,
+  "backbone_learning_rate": 0.00001,
+  "weight_decay": 0.0001
+}

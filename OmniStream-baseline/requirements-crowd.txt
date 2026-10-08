@@ -1,0 +1,7 @@
+# Install the matching torch/torchvision builds separately for the intended GPU.
+# OmniStream official reference: torch 2.6.0 + torchvision 0.21.0 (CUDA 12.4).
+transformers==4.56.1
+huggingface_hub>=0.34.0,<1.0
+safetensors>=0.4.4
+numpy>=1.26,<2.0
+pillow>=10.4
